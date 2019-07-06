@@ -1,0 +1,68 @@
+header{
+  flex-direction: column;
+}
+
+header p{
+  text-align: center;
+  margin: auto;
+}
+
+header div:last-child{
+  margin-left: 0;
+  margin-top: 10px;
+}
+
+.grid{
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-rows: 385px 70px 4px 1fr 100px;
+}
+
+
+#img_grid{
+  display: grid;
+  height: 190px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 10px;
+  justify-items: center;
+}
+
+#img_grid img:first-child{
+  grid-column-start: span 3;
+}
+
+
+
+#sobre_mi article{
+  flex-direction: column;
+}
+
+#sobre_mi article img{
+  margin: auto;
+}
+
+#sobre_mi article:nth-child(2n+1) img{ /*necesario porque el anterior no sobreescribia el de style.css*/
+  margin: auto;
+}
+
+
+
+#proyectos .flex{
+  flex-wrap: wrap;
+}
+
+#proyectos img{
+  width: 100%;
+}
+
+
+
+#detalle .flex{
+  flex-wrap: wrap;
+}
+
+#detalle article img{
+  float: none;
+  margin: auto;
+  width: 80%;
+}
