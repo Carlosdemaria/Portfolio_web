@@ -265,8 +265,8 @@ header p{
 }
 
 .entrada_fade{
-  animation: entrar_fade 1.5s;
-  animation-delay: 0.5s;
+  animation: entrar_fade 1s;
+  animation-delay: 0.25s;
   animation-fill-mode: backwards;
 }
 

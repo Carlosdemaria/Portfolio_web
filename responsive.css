@@ -27,7 +27,7 @@ header div:last-child{
   justify-items: center;
 }
 
-#img_grid img:first-child{
+#img_grid a:first-child{
   grid-column-start: span 3;
 }
 
