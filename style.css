@@ -163,7 +163,7 @@ header p{
   margin-right: 50px;
 }
 
-#sobre_mi article:nth-child(2n+1) img{
+#sobre_mi div div:nth-child(2n+1) img{
   float: right;
   margin-left: 50px;
   margin-right: 0; /*quitar el puesto anteriormente*/
@@ -243,6 +243,8 @@ header p{
   background-color: Transparent;
   border: 2px solid #292929;
   font-size: 1.2rem;
+  text-decoration: none;
+  font-weight: bold;
   color: #dbdbdb;
   padding: 10px 20px;
   transition-duration: 0.4s;

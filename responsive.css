@@ -33,15 +33,15 @@ header div:last-child{
 
 
 
-#sobre_mi article{
+#sobre_mi .flex{
   flex-direction: column;
 }
 
-#sobre_mi article img{
+#sobre_mi .flex img{
   margin: auto;
 }
 
-#sobre_mi article:nth-child(2n+1) img{ /*necesario porque el anterior no sobreescribia el de style.css*/
+#sobre_mi .flex:nth-child(2n+1) img{ /*necesario porque el anterior no sobreescribia el de style.css*/
   margin: auto;
 }
 
